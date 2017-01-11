@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Titre de la page</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+
+            </nav>
+        </header>
+        <aside >
+
+        </aside>
+        <main>
+            <section>
+                <h2>Contact</h2>
+                <form action="http://live.codincamp.fr/mail.php" method="post">
+                        <fieldset>
+                            <legend>Vos informations</legend>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="name" value="" id="nom">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" name="prenom" value="" id="prenom">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" value="" id="email">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Votre message</legend>
+                            <label for="objet">Objet</label>
+                            <input type="text" name="subject" value="a" id="objet">
+                            <label for="message">Message</label>
+                            <textarea name="message" rows="8" cols="80" id="message"></textarea>
+
+                        </fieldset>
+                            <input type="submit" name="envoyer" value="Envoyer">
+                    </form>
+            </section>
+        </main>
+    </body>
+</html>

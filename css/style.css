@@ -1,0 +1,8 @@
+form{
+    width: 40em;
+}
+label{
+    display: inline-block;
+    width: 15em;
+}
+input{margin-bottom: 1em;}
